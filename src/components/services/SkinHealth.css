@@ -1,0 +1,118 @@
+  .site-layout-content-top {
+    padding: 10px;
+    background: #fff;
+    margin: auto 25rem;
+    width: 51%;
+    height: fit-content;
+  }
+  .content-items{
+    display: block;
+  }
+  .site-layout-content-left {
+    outline: 1px solid rgb(186, 187, 187);
+    float: left;
+    background: #fff;
+    margin-left: 22%;
+    margin-top: 5rem;
+    width: 25%;
+    height: fit-content;
+  }
+  .site-layout-content-right {
+    outline: 1px solid rgb(186, 187, 187);
+    float: right;
+    background: #fff;
+    margin-right: 27%;
+    margin-top: 5rem;
+    width: 25%;
+    height: fit-content;
+
+  }
+  .categoryItem{
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    outline: 1px solid rgb(186, 187, 187);
+    border-radius: 3px;
+    padding: 10px;
+    margin: 1rem 1rem;
+    text-align: center;
+  }
+  .categoryItemRight{
+    width: 400px;
+    height: 30px ;
+  }
+  .categoryItem:hover{
+    outline: 1px solid cyan;
+  }
+
+  .categorySwitch{
+    display: inline-block;
+    text-align: center;
+    width: 42%;
+    height: fit-content;
+    outline: 1px solid rgb(186, 187, 187);
+    border-radius: 3px;
+    padding: 10px;
+    margin: 1rem;
+    text-align: center;
+  }
+  .item{
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    height: 60px;
+    margin: 1rem;
+    outline: 1px solid rgb(186, 187, 187);
+    border-radius: 3px;
+  }
+  .item span {
+    display: block;
+    font-size: smaller;
+  }
+  .activeItem{
+    outline: 1px solid cyan;
+
+  }
+  .item:hover{
+    outline: 1px solid cyan;
+
+  }
+
+
+  .quantity{
+
+  }
+ 
+
+  #components-layout-demo-top .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .ant-row-rtl #components-layout-demo-top .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+  }
+
+  .ant-radio-button-wrapper {
+    position: relative;
+    display: inline-block;
+    height: auto !important;
+    margin: 0;
+    padding: 15px !important;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    line-height: 30px;
+    width: 130px;
+    background: #fff;
+    text-align: center;
+    border: 1px solid #D9D9D9;
+    border-top-width: 1.02px;
+    border-left-width: 0;
+    cursor: pointer;
+    transition: color 0.3s, background 0.3s, border-color 0.3s, box-shadow 0.3s;
+  }
+
+
